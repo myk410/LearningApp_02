@@ -16,6 +16,8 @@
 		AD21D859275AB80100C10461 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = AD21D858275AB80100C10461 /* data.json */; };
 		AD21D85B275AB82500C10461 /* style.html in Resources */ = {isa = PBXBuildFile; fileRef = AD21D85A275AB82500C10461 /* style.html */; };
 		AD21D85D275ABACC00C10461 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21D85C275ABACC00C10461 /* Module.swift */; };
+		AD228D00275BCF1500C60338 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD228CFF275BCF1500C60338 /* ContentViewRow.swift */; };
+		AD64A16B275BC5AD00489FDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD64A16A275BC5AD00489FDD /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		AD21D858275AB80100C10461 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		AD21D85A275AB82500C10461 /* style.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = style.html; sourceTree = "<group>"; };
 		AD21D85C275ABACC00C10461 /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
+		AD228CFF275BCF1500C60338 /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
+		AD64A16A275BC5AD00489FDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 			children = (
 				AD21D845275AB3E700C10461 /* HomeView.swift */,
 				AD1FC57F275BBE80008616CF /* HomeViewRow.swift */,
+				AD64A16A275BC5AD00489FDD /* ContentView.swift */,
+				AD228CFF275BCF1500C60338 /* ContentViewRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,7 +202,9 @@
 			files = (
 				AD21D846275AB3E700C10461 /* HomeView.swift in Sources */,
 				AD1FC580275BBE80008616CF /* HomeViewRow.swift in Sources */,
+				AD64A16B275BC5AD00489FDD /* ContentView.swift in Sources */,
 				AD21D85D275ABACC00C10461 /* Module.swift in Sources */,
+				AD228D00275BCF1500C60338 /* ContentViewRow.swift in Sources */,
 				AD21D844275AB3E700C10461 /* LearningApp.swift in Sources */,
 				AD21D857275AB50A00C10461 /* ContentModel.swift in Sources */,
 			);
