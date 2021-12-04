@@ -20,6 +20,7 @@ struct Content: Decodable, Identifiable{
     
     var id: Int
     var image: String
+    var time: String
     var description: String
     var lessons: [Lesson]
     
